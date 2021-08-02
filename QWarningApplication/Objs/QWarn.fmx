@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FlashMagic>
+  <Project>
+    <AbsolutePaths>false</AbsolutePaths>
+    <Version>1</Version>
+  </Project>
+  <ProgramDocument>
+    <GUID>3250769a-574a-427d-a2af-4df02fd5ce78</GUID>
+    <UsesCustomTitle>false</UsesCustomTitle>
+    <Title>QWarning - LPC2366 (LPC2000)</Title>
+    <VerifyFile Path="yes">
+    </VerifyFile>
+    <GoAddress>0</GoAddress>
+    <GoCloseDelay>100</GoCloseDelay>
+    <GoIsVectorTable>true</GoIsVectorTable>
+    <StartBootloaderStartType>Command</StartBootloaderStartType>
+    <StartBootloaderCommand>Boot</StartBootloaderCommand>
+    <StartBootloaderAppendType>CRLF</StartBootloaderAppendType>
+    <StartBootloaderBaudrate>115200</StartBootloaderBaudrate>
+    <Programmer>
+      <DeviceSettings>
+        <DeviceName>LPC2366</DeviceName>
+        <ISPType>UART</ISPType>
+        <UARTSettings>
+          <COMPort>COM5</COMPort>
+          <Baudrate>115200</Baudrate>
+        </UARTSettings>
+      </DeviceSettings>
+      <EraseSettings>
+        <EraseType>All</EraseType>
+        <Selections>n:n:n:n:n:n:n:n:n:n:n:n:n:n:n:n</Selections>
+      </EraseSettings>
+      <FirmwareFile>
+        <File Path="yes">QWarning.hex</File>
+      </FirmwareFile>
+      <ProgramOptions>
+        <Verify>false</Verify>
+        <Fill>false</Fill>
+        <Patch>false</Patch>
+        <Go>false</Go>
+        <ActivateBank>false</ActivateBank>
+        <ActivateBankSelection>0</ActivateBankSelection>
+        <Patches />
+        <ProductionTasks />
+      </ProgramOptions>
+      <Preferences>
+        <CrystalFrequency>12</CrystalFrequency>
+        <HardwareISPEntry>true</HardwareISPEntry>
+        <KeepRTSAsserted>false</KeepRTSAsserted>
+        <T1>50</T1>
+        <T2>100</T2>
+        <KeepDTRRTSAsserted>false</KeepDTRRTSAsserted>
+        <DisableDTRRTS>false</DisableDTRRTS>
+        <HalfDuplex>false</HalfDuplex>
+        <CustomLineFeedSettings>false</CustomLineFeedSettings>
+        <SendLineFeeds>true</SendLineFeeds>
+        <ExpectLineFeeds>true</ExpectLineFeeds>
+        <DelayAfterOpening>0</DelayAfterOpening>
+        <HighSpeedCommunications>false</HighSpeedCommunications>
+        <HighSpeedMaxBaudrate>230400</HighSpeedMaxBaudrate>
+        <NoEcho>true</NoEcho>
+        <CustomTimeouts>false</CustomTimeouts>
+        <ShortTimeout>4</ShortTimeout>
+        <LongTimeout>60</LongTimeout>
+        <SDOTimeout>1000</SDOTimeout>
+        <CanCryptTimeout>10000</CanCryptTimeout>
+        <UDPTxDelay>10</UDPTxDelay>
+        <DisableSignatureCheck>false</DisableSignatureCheck>
+      </Preferences>
+      <Split1Distance>160</Split1Distance>
+      <Split2Distance>1015</Split2Distance>
+    </Programmer>
+  </ProgramDocument>
+  <StartPageForm>
+    <GUID>8deee2a2-7fd1-404a-9573-67b6a084ae5b</GUID>
+  </StartPageForm>
+  <MainForm>
+    <Width>1096</Width>
+    <Height>530</Height>
+    <State>Normal</State>
+    <Layout>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Layout&gt;
+  &lt;Window Guid="8deee2a2-7fd1-404a-9573-67b6a084ae5b" LastFocused="132661171704078656" DockedSize="200" PopupSize="0" FloatingLocation="-1, -1" FloatingSize="250, 400" LastOpenDockSituation="Docked" LastFixedDockSituation="Docked" LastFixedDockLocation="Right" LastFloatingWindowGuid="00000000-0000-0000-0000-000000000000" LastDockContainerCount="1" LastDockContainerIndex="0" DockedWorkingSize="250, 400" DockedWindowGroupGuid="ef83b8ba-fcd0-458f-aa68-c51e31a9fab5" DockedIndexInWindowGroup="0" DockedSplitPath="0" DocumentWorkingSize="250, 400" DocumentWindowGroupGuid="00000000-0000-0000-0000-000000000000" DocumentIndexInWindowGroup="0" DocumentSplitPath="0" FloatingWorkingSize="250, 400" FloatingWindowGroupGuid="00000000-0000-0000-0000-000000000000" FloatingIndexInWindowGroup="0" FloatingSplitPath="0" /&gt;
+  &lt;Window Guid="3250769a-574a-427d-a2af-4df02fd5ce78" LastFocused="132688512683713313" DockedSize="200" PopupSize="0" FloatingLocation="-1, -1" FloatingSize="550, 400" LastOpenDockSituation="Document" LastFixedDockSituation="Document" LastFixedDockLocation="Right" LastFloatingWindowGuid="00000000-0000-0000-0000-000000000000" LastDockContainerCount="0" LastDockContainerIndex="0" DockedWorkingSize="250, 400" DockedWindowGroupGuid="00000000-0000-0000-0000-000000000000" DockedIndexInWindowGroup="0" DockedSplitPath="0" DocumentWorkingSize="250, 400" DocumentWindowGroupGuid="138c65ec-fbe2-49d7-9b33-033db5c634d2" DocumentIndexInWindowGroup="0" DocumentSplitPath="0" FloatingWorkingSize="250, 400" FloatingWindowGroupGuid="00000000-0000-0000-0000-000000000000" FloatingIndexInWindowGroup="0" FloatingSplitPath="0" /&gt;
+  &lt;Container Dock="4" ContentSize="200"&gt;
+    &lt;SplitLayoutSystem WorkingSize="250, 400" SplitMode="0"&gt;
+      &lt;ControlLayoutSystem WorkingSize="250, 400" Guid="ef83b8ba-fcd0-458f-aa68-c51e31a9fab5" Collapsed="1" SelectedControl="8deee2a2-7fd1-404a-9573-67b6a084ae5b"&gt;
+        &lt;Controls&gt;
+          &lt;Control Guid="8deee2a2-7fd1-404a-9573-67b6a084ae5b" /&gt;
+        &lt;/Controls&gt;
+      &lt;/ControlLayoutSystem&gt;
+    &lt;/SplitLayoutSystem&gt;
+  &lt;/Container&gt;
+  &lt;DocumentContainer Dock="5"&gt;
+    &lt;SplitLayoutSystem WorkingSize="250, 400" SplitMode="0"&gt;
+      &lt;ControlLayoutSystem WorkingSize="250, 400" Guid="138c65ec-fbe2-49d7-9b33-033db5c634d2" Collapsed="0" SelectedControl="3250769a-574a-427d-a2af-4df02fd5ce78"&gt;
+        &lt;Controls&gt;
+          &lt;Control Guid="3250769a-574a-427d-a2af-4df02fd5ce78" /&gt;
+        &lt;/Controls&gt;
+      &lt;/ControlLayoutSystem&gt;
+    &lt;/SplitLayoutSystem&gt;
+  &lt;/DocumentContainer&gt;
+&lt;/Layout&gt;</Layout>
+  </MainForm>
+</FlashMagic>

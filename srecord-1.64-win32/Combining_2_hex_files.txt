@@ -1,0 +1,4 @@
+srec_cat.exe LPC_bootloader.hex -Intel TDU.hex -Intel -o MergedHexFile.hex -Intel
+
+
+http://www.keil.com/support/docs/1940.htm
